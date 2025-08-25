@@ -549,10 +549,8 @@ export default function Dashboard() {
         {/* 头部 */}
         <header className="flex items-center justify-between py-4 border-b border-slate-700/50 mb-6">
           <div className="flex items-center space-x-2">
-            <Brain className="h-8 w-8 text-emerald-400" />
-            <span className="text-xl font-bold text-emerald-400">
-              QuantumSpace AI
-            </span>
+            {/* 请将您的logo图片保存到public文件夹，然后告诉我文件名 */}
+            <img src="/your-logo.png" alt="Logo" className="h-8" />
           </div>
 
           <div className="flex items-center space-x-6">
