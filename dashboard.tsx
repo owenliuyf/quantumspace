@@ -550,7 +550,7 @@ export default function Dashboard() {
         <header className="flex items-center justify-between py-4 border-b border-slate-700/50 mb-6">
           <div className="flex items-center space-x-2">
             <Brain className="h-8 w-8 text-emerald-400" />
-            <span className="text-xl font-bold bg-gradient-to-r from-emerald-400 to-green-500 bg-clip-text text-transparent">
+            <span className="text-xl font-bold text-emerald-400">
               QuantumSpace AI
             </span>
           </div>
@@ -785,9 +785,8 @@ function MetricCard({
       <div className="text-2xl font-bold mb-1 bg-gradient-to-r bg-clip-text text-transparent from-slate-100 to-slate-300">
         {isValue ? value : `${value}%`}
       </div>
-      <div className="text-xs text-slate-500">{detail}</div>
+      <div className="text-xs text-slate-400">{detail}</div>
       <div className="absolute bottom-2 right-2 flex items-center">{getTrendIcon()}</div>
-      <div className="absolute -bottom-6 -right-6 h-16 w-16 rounded-full bg-gradient-to-r opacity-20 blur-xl from-emerald-500 to-green-500"></div>
     </div>
   )
 }
